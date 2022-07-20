@@ -1,0 +1,78 @@
+Part1
+
+oops
+
+objects: data members, functions
+class: user defined data type
+access modifiers: public, private, protected.
+
+static allocation  
+dynamic allocation
+
+constructor: memory allocate - default, parmeterised, copy constructor
+destructor: memory deallocate
+
+this keyword
+. ->
+
+Pass by value: copy banjaegi
+reference: ek memory block ko 2 variables point karnege, koi copy ni banegi
+
+shallow copy: default copy constructor shallow copy. shallow copy m same memory ko copy kr krte h, diff object se.
+deep copy : differeent memories ko access krte h.
+
+dynamic declaration: manually destructor call krna padta h.
+static decalareation : automatic destructor call hota h.
+static data member: bina object create kare use krsakte h, it belongs to the class. 
+static function: only static members can use this func.
+
+Part2 _______
+encapsulation: data hide kr rahe h.data ko private krreh.
+inheritance: class Dog: public Animal{};
+single- one parent and one child class
+multilevel- when child class becomes a parent class for other class.
+multiple- jab child class ek se jyda class se proprty inherit krle.
+heirarchial- jab ek parent class multiple child class ho.
+public private codestudio chart
+
+*private data e=members of parent class cannot be inherited.
+
+Getters and Setters : private data members ko access krne klie.
+int getAge(){
+return this->age; };
+
+void setAge( int a ){
+ this->age= a; 
+};
+
+Polymorphism: jab one thing exist in multiple forms.
+achieved through fun overloading and operator overloading.
+compile time poly/ static poly: function overloading , and operator overloading.
+run time poly:
+
+note: functions of diff return type can be overloading
+func overloading: same function name but different return type of arguments and diff no of arguments
+func overloading: input argument type change krdo, ya number of input arguments change krdo.
+
+operator overloading: operator+ ka kaam change krdenge.
++ ab - minus ka kaam kar ra h.
+
+void operator() (){
+cout<<this->a;
+};
+
+so operator se koi bhi custom kaam karwa sakte h.
+
+
+Abstaraction: implementation hiding. essential data dikhado, puri kahani mat batao. 
+searching google,
+use access modifiers, private krdo, security miljaegi.
+
+
+
+
+
+
+
+
+
